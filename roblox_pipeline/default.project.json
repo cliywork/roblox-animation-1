@@ -1,0 +1,50 @@
+{
+  "name": "FightShots",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "SceneData": {
+        "$path": "SceneData.lua"
+      },
+      "VFXAssets": {
+        "$path": "VFXAssets.lua"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "Shots": {
+        "$path": "shots"
+      },
+      "TitanSetBuilder": {
+        "$path": "titan_set.lua"
+      },
+      "Costumes": {
+        "$path": "Costumes.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "ShotPlayer": {
+        "$path": "ShotPlayer.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "ShotButtons": {
+          "$path": "ShotButtons.client.lua"
+        },
+        "Director": {
+          "$path": "Director.client.lua"
+        }
+      }
+    }
+  }
+}

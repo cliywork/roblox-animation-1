@@ -1,0 +1,27 @@
+# movie material (copyrighted) and the video renders
+reference/
+frames/
+docs/images/threeway/real/
+docs/images/threeway/chunk_sheets/
+analysis/cut_candidates/
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.zip
+
+# Roblox place files and generated/rollback copies (regenerate with scene.py)
+*.rbxl
+*.rbxlx
+roblox_pipeline/shots/
+roblox_pipeline/backup/
+roblox_pipeline/__pycache__/
+__pycache__/
+
+# local tools and session files
+.claude/
+*.log
+
+# wireframe sheets: left half is the movie frame (regenerate with preview.py if needed)
+analysis/threeway_all/wire/
